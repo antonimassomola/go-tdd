@@ -1,5 +1,8 @@
 package hello
 
-func hello() string {
-	return "Hello Go!"
+func hello(i string) string {
+	o := "Hello "
+	o += i
+	o += "!"
+	return o
 }
